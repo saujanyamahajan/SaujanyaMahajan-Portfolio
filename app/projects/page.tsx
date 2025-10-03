@@ -79,35 +79,35 @@ export default function Projects() {
 
           {/* Content */}
           <div className="p-5">
-            <h2 className="text-lg font-semibold mb-1">Portfolio Website</h2>
+            <h2 className="text-lg font-semibold mb-1">Solana Explorer</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
-              A responsive personal portfolio showcasing projects & experience.
+            Track blockchain transactions in real-time.
             </p>
 
             {/* Tags */}
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
-                Next.js
+                React
               </span>
               <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
-                Tailwind
+                Typescript
               </span>
               <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
-                Framer Motion
+              Wallet Integration
               </span>
             </div>
 
             {/* Buttons */}
             <div className="flex gap-3">
               <Link
-                href="https://your-portfolio.vercel.app/"
+                href="https://solana-transaction-dun.vercel.app/"
                 target="_blank"
                 className="px-3 py-1 rounded-md text-sm bg-black text-white hover:bg-neutral-800 dark:bg-white dark:text-black"
               >
                 Live
               </Link>
               <Link
-                href="https://github.com/saujanyamahajan/portfolio"
+                href="https://github.com/saujanyamahajan/solana-transaction"
                 target="_blank"
                 className="px-3 py-1 rounded-md text-sm border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800"
               >
