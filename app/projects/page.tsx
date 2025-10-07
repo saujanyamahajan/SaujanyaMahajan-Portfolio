@@ -27,7 +27,7 @@ export default function Projects() {
 
           {/* Content */}
           <div className="p-5">
-            <h2 className="text-lg font-semibold mb-1">Finance Tracker</h2>
+            <h2 className="text-lg font-semibold mb-1">Flux</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
               A budgeting app to track income & expenses with analytics.
             </p>
@@ -79,7 +79,7 @@ export default function Projects() {
 
           {/* Content */}
           <div className="p-5">
-            <h2 className="text-lg font-semibold mb-1">Solana Explorer</h2>
+            <h2 className="text-lg font-semibold mb-1">SolVault</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
             Track blockchain transactions in real-time.
             </p>
