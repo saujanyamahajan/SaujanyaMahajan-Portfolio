@@ -11,7 +11,7 @@ export default function Projects() {
     <section>
       <h1 className="mb-4 text-2xl font-medium">Projects</h1>
       <h4 className="mb-8 text-sm text-gray-600 dark:text-gray-400 mb-4">
-        Selected work, personal builds, and open‑source contributions.
+        Selected work, personal builds.
       </h4>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
         {/* Project Card 1 */}
