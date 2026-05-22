@@ -116,7 +116,56 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      </div>
+        {/* Project Card 3 */}
+<div className="rounded-xl border bg-white dark:bg-neutral-900 dark:border-neutral-800 shadow-sm hover:shadow-md transition overflow-hidden">
+  <div className="h-48 w-full overflow-hidden">
+    <img
+      src="/project3.png"
+      alt="PharmacyApp Preview"
+      className="h-full w-full object-cover"
+    />
+  </div>
+
+  <div className="p-5">
+    <h2 className="text-lg font-semibold mb-1">PharmacyApp</h2>
+    <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+      Full-stack medicine inventory tracker with expiry alerts, stock management, and sales recording.
+    </p>
+
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
+        React
+      </span>
+      <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
+        ASP.NET Core
+      </span>
+      <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
+        Docker
+      </span>
+      <span className="px-2 py-1 text-xs rounded-md bg-gray-100 dark:bg-neutral-800">
+        REST API
+      </span>
+    </div>
+
+    <div className="flex gap-3">
+      <Link
+        href="https://pharmacyapp-1-9m6l.onrender.com/"
+        target="_blank"
+        className="px-3 py-1 rounded-md text-sm bg-black text-white hover:bg-neutral-800 dark:bg-white dark:text-black"
+      >
+        Live
+      </Link> 
+      <Link
+        href="https://github.com/saujanyamahajan/PharmacyApp"
+        target="_blank"
+        className="px-3 py-1 rounded-md text-sm border border-gray-300 dark:border-neutral-700 hover:bg-gray-100 dark:hover:bg-neutral-800"
+      >
+        Code
+      </Link>
+    </div>
+  </div>
+</div>
+        </div>
     </section>
   );
 }
