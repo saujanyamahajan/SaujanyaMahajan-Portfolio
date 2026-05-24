@@ -19,7 +19,7 @@ export default function Page() {
       <div className="prose prose-neutral dark:prose-invert">
         <h2 className="text-3xl font-bold mb-2"> Hi there! I'm Saujanya</h2>
         <p>
-        I’m a .NET Developer with 3+ years of experience designing and building scalable, high-performance applications in the energy and payments domain, serving over a million customers.     I enjoy solving complex problems at the intersection of technology and customer behavior, and I’m passionate about creating products that balance business goals with user needs.
+        I’m a .NET Developer with 4+ years of experience designing and building scalable, high-performance applications in the energy and payments domain, serving over a million customers.     I enjoy solving complex problems at the intersection of technology and customer behavior, and I’m passionate about creating products that balance business goals with user needs.
         </p>
       </div>
     </section>
